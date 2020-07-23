@@ -1,0 +1,254 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* ヘッダー */
+.header-content {
+  margin-top: 10px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #72b2d5;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+header h1 {
+  border-bottom: 1px solid gainsboro;
+  font-family: serif;
+}
+
+.header-wrap {
+  width: 100%;
+  border-bottom: 2px solid gainsboro;
+}
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-list li {
+  width: 20%;
+}
+
+.big {
+  font-size: 22px;
+}
+
+.small {
+  font-size: 16px;
+}
+
+img {
+  position: relative;
+}
+
+.img-phrase {
+  width: 300px;
+  position: relative;
+  bottom: 400px;
+  left: 600px;
+  z-index: 3;
+  color: white;
+  font-size: 32px;
+}
+
+.img-phrase-TV {
+  position: relative;
+  bottom: 200px;
+  left: 520px;
+  font-size: 24px;
+  color: gray;
+  border: solid 2px gray;
+  width: 30%;
+  padding: 5px 0 5px 120px;
+}
+
+.service-content {
+  text-align: center;
+}
+
+.emergency {
+  color: rgb(170, 166, 166);
+}
+
+.service-phrase {
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+.service-img {
+  height: 300px;
+  background-color: #F5F5F5;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.service-left {
+  position: relative;
+  left: 172px;
+  top: 165px;
+  z-index: 10;
+}
+
+
+.service-head {
+  font-family: serif;
+  margin-left: 75px;
+}
+
+.service-right {
+  width: 400px;
+  position: relative;
+  bottom: 300px;
+  left: 650px;
+  margin-bottom: -290px;
+}
+
+.service-right .circle {
+  margin-left: 130px;
+}
+
+.right-big-phrase {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.right-phrase {
+  font-size: 14px;
+  color: rgb(170, 166, 166);
+}
+
+.service-index {
+  height: 65px;
+  background-color: #72b2d5;
+  color: white;
+}
+.service-index p {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.triangle {
+  float: right;
+  margin-right: 10px;
+}
+
+/* ニュースコンテンツ */
+
+.news-content {
+  margin-top: 100px;
+}
+
+.news-header {
+  text-align: center;
+  color: #5C6C79;
+}
+
+.news-index {
+  height: 400px;
+  background-color: #F5F5F5;
+}
+
+.news-date {
+  padding-top: 30px;
+}
+.news-list {
+  margin-top: 10px;
+}
+
+.news-release {
+  color: white;
+  background-color: #72b2d5;
+}
+
+.news-text {
+  width: 60%;
+  font-size: 14px;
+  float: right;
+}
+
+.detail {
+  margin-left: 400px;
+}
+
+.news-all {
+  width: 100%;
+  text-align: right;
+  font-size: 20px;
+  margin-top: 80px;
+  padding-right: 20px;
+}
+
+/* 採用情報 */
+
+.recruit-content {
+  margin-top: 100px;
+}
+
+.recruit-header {
+  text-align: center;
+  color: #5C6C79;
+}
+
+.recruit-image {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  position: relative;
+}
+
+.recruit-text {
+  width: 500px;
+  position: relative;
+  top: 130px;
+  left: 500px;
+  z-index: 10;
+  color: grey;
+  border-bottom: solid 2px grey;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.recruit-block {
+  width: 500px;
+  position: relative;
+  bottom: 180px;
+  left: 500px;
+  z-index: 10;
+  text-align: center;
+}
+
+.recruit-block h3 {
+  color: grey;
+  background-color: white;
+  margin-bottom: 30px;
+  padding: 20px 0;
+}
+
+.recruit-block p {
+  color: black;
+}
+
+/* フッター */
+
+footer {
+  text-align: center;
+  color: #5C6C79;
+}
+
+.footer-text {
+  width: 50%;
+  font-size: 22px;
+  border-bottom: 2px solid #5C6C79;
+  display: inline-block; 
+}
